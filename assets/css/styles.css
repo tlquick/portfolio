@@ -259,6 +259,18 @@ nav {
     border: 2px solid var(--primary-color);
     cursor: pointer;
   }
+  .socials {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+  }
+  
+  .socicon {
+    width: 3rem;
+    height: 3rem;
+  }
   .scroll-up {
     position: fixed;
     right: 0.5%;
